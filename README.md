@@ -1,6 +1,13 @@
 # WHI
 A genome-based method embracing evolutionary distance and ecology to delineate prokaryotic species
 
+# Please Cite
+If you use WHI in your publication, please cite:
+
+# Support
+If you are having issues, please email me via zhouyizhuang3@163.com
+
+# Protocol
 ## 1. Genome collection
 ### 1.1 Download assembly_summary.txt
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/archea/assembly_summary.txt (for archea genomes)
