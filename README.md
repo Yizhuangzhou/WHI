@@ -15,7 +15,7 @@ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/archea/assembly_summary.txt
 mv assembly_summary.txt Archea_assembly_summary.txt  
 
 For eubacteria genomes:  
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/assembly_summary.txt
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/assembly_summary.txt  
 mv assembly_summary.txt Bacteria_assembly_summary.txt
 
 Pooling two files together:
