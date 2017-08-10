@@ -18,15 +18,21 @@ For eubacteria genomes:
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/assembly_summary.txt  
 mv assembly_summary.txt Bacteria_assembly_summary.txt
 
-Pooling two files together:  
+Merging two files:  
 cat Archea_assembly_summary.txt Bacteria_assembly_summary.txt >assembly_summary.txt
 
 ### 1.2. Generate script for downloading genomes
-perl Scripts/01.FormShell_4wget.pl assembly_summary.txt [outdir] wget.sh
+perl Scripts/01.FormShell_4wget.pl assembly_summary.txt Genomes wget.sh
 
-[outdir] the output directory to save downloaded genomes
+Genomes: the output directory to save downloaded genomes  
+wget.sh: the generated script to download genomes
 
 ### 1.3. Download genomes
 sh wget.sh
+
+Decompress files:
+perl Scripts/02.FormShell_4Gzip.pl Genomes gzip.sh  
+#gzip.sh: the generated scripts to decompress files 
+sh gzip.sh
 
 ### 1.4. 
