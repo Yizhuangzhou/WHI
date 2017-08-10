@@ -10,8 +10,7 @@ If you are having issues, please email me via zhouyizhuang3@163.com
 # Protocol
 ## 1. Genome collection
 ### 1.1 Download assembly_summary.txt
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/archea/assembly_summary.txt (for archea genomes)
-
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/archea/assembly_summary.txt (for archea genomes)\n
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/assembly_summary.txt (for eubacteria genomes)
 
 Then pool these two files together which named assembly_summary.txt
