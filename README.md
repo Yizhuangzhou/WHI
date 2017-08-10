@@ -2,7 +2,7 @@
 A genome-based method embracing evolutionary distance and ecology to delineate prokaryotic species ＜/br＞
 
 # Please Cite
-If you use WHI in your publication, please cite:＜/br＞
+<br>If you use WHI in your publication, please cite:＜/br＞
 
 # Support
 If you are having issues, please email me via zhouyizhuang3@163.com＜/br＞
