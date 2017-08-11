@@ -37,7 +37,7 @@ sh gzip.sh
 
 ### 1.4 Generate genome list 
 perl bin/03.Generate_GenomeList.pl assembly_summary.txt Genome Total_Genome.list Total_Genome.log  
-Total_Genome.list: the output file containing genome information,including 5 columns: assembly_accession,species_taxid,organism_name,assembly_level,and File_Path  
+Total_Genome.list: the output file containing genome information,including 5 columns:assembly_accession,species_taxid,organism_name,assembly_level,and File_Path  
 Total_Genome.log: the output file containing organisms without fasta files
 
 ### 1.4. Separate Chromosomes and Plasmids
