@@ -22,18 +22,23 @@ Merging two files:
 cat Archea_assembly_summary.txt Bacteria_assembly_summary.txt >assembly_summary.txt
 
 ### 1.2. Generate script for downloading genomes
-perl Scripts/01.GenerateShell_4wget.pl assembly_summary.txt Genomes wget.sh
+perl bin/01.GenerateShell_4wget.pl assembly_summary.txt Genome wget.sh
 
-Genomes: the output directory to save downloaded genomes  
+Genome: the output directory to save downloaded genomes  
 wget.sh: the generated script to download genomes
 
 ### 1.3. Download genomes
 sh wget.sh
 
 Decompress files:
-perl Scripts/02.GenerateShell_4Gzip.pl Genomes gzip.sh  
+perl bin/02.GenerateShell_4Gzip.pl Genome gzip.sh  
 gzip.sh: the generated scripts to decompress files  
 sh gzip.sh
+
+### 1.4 Generate genome list 
+perl bin/03.Generate_GenomeList.pl assembly_summary.txt Genome Total_Genome.list Total_Genome.log  
+Total_Genome.list: the output file containing genome information,including 5 columns: assembly_accession,species_taxid,organism_name,assembly_level,and File_Path  
+Total_Genome.log: the output file containing organisms without fasta files
 
 ### 1.4. Separate Chromosomes and Plasmids
 
