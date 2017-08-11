@@ -54,6 +54,7 @@ Total_Chrom_Plasmid_Strain.xls: the output file
 
 ## 2. Species with validated names and type strains
   Species with validated names were collected from the List of Prokaryotic names with Standing in Nomenclature (LPSN) database (http://www.bacterio.net/), which are included in Data/Validated_SpeciesName.xls.  
+  
   Type strains were recognized using the Straininfo bioportal (http://www.straininfo.net/) and LPSN. Collected type strains are included in Data/Type_strain.xls.
 
 ## 3. Genome selection
