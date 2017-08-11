@@ -48,29 +48,29 @@ Plasmids.ids: downloaded from NCBI(wget ftp://ftp.ncbi.nlm.nih.gov/genomes/archi
 Total_Chrom_Plasmid.list: the output file, containing assembly_accession,species_taxid,organism_name,assembly_level, file_path for chromsomes, and file_path for plasmids  
 Chromosome_Plasmid: the output directory containing separated chromsome and plasmid sequences  
 
-## 2. Species with validated names and type strains
+## 2. Validated Species and type strains
   Species with validated names were collected from the List of Prokaryotic names with Standing in Nomenclature (LPSN) database (http://www.bacterio.net/), which are included in Data/Validated_SpeciesName.xls.  
   
   Type strains were recognized using the Straininfo bioportal (http://www.straininfo.net/) and LPSN. Collected type strains are included in Data/Type_strain.xls.
 
 ## 3. Genome selection  
 ### 3.1 Select genomes with validated species names
-To discard genomes without validated species name and retain genomes belonging to validated species:
+To discard genomes without validated species name and retain genomes belonging to validated species  
 perl bin/05.ValidatedSpecies_GenomeInfo.pl Data/Validated_SpeciesName.xls Total_assembly_summary.txt ValidatedSpecies_GenomeInfo.xls  
 ValidatedSpecies_GenomeInfo.xls: the output file to contain only genomes belonging to validated species
 
 ### 3.2 Add strain information  
-To add strain information to each genomes with validated species names:
+To add strain information to each genomes with validated species names:  
 perl bin/06.Add_StrainInfo.pl ValidatedSpecies_GenomeInfo.xls Validated_SpeciesName.xls Total_assembly_summary.txt ValidatedSpecies_GenomeInfo_Strain.xls  
 ValidatedSpecies_GenomeInfo_Strain.xls: the output file
 
 ### 3.3 Select draft genomes with size >0.5 megabase-pairs (Mb)
-To filter out low-coverage genomes (< 0.5 Mb):
+To filter out low-coverage genomes (< 0.5 Mb):  
 perl bin/07.ValidatedGenome_more500kb.pl ValidatedSpecies_GenomeInfo_Strain.xls ValidatedGenome_more500kb.xls  
 ValidatedGenome_more500kb.xls: the output file
 
 ## Reference and query genomes 
-To select reference and query genomes:
+To select reference and query genomes:  
 perl bin/08.Ref_Query_GenomeInfo.pl ValidatedGenome_more500kb.xls Data/Type_strain.xls Ref_GenomeInfo.xls Query_GenomeInfo.xls  
 Ref_GenomeInfo.xls: the output file for selected references
 Query_GenomeInfo.xls: the output file for selected queries
