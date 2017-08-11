@@ -36,9 +36,15 @@ gzip.sh: the generated scripts to decompress files
 sh gzip.sh
 
 ### 1.4 Generate genome list 
+To generate a table containing assembly_accession,species_taxid,organism_name,assembly_level,and Path for fasta file  
 perl bin/03.Generate_GenomeList.pl assembly_summary.txt Genome Total_Genome.list Total_Genome.log  
-Total_Genome.list: the output file containing genome information,including 5 columns:assembly_accession,species_taxid,organism_name,assembly_level,and File_Path  
+Total_Genome.list: the output file containing genome information  
 Total_Genome.log: the output file containing organisms without fasta files
 
-### 1.4. Separate Chromosomes and Plasmids
+### 1.5. Separate Chromosomes and Plasmids
+To separate chromosomes and plasmids, and then calculate the genome sizes for chromosomes  
+perl bin/04.Separate_Chrom_Plasmid.pl Total_Genome.list Plasmids.ids Total_Chrom_Plasmid.list Chromosome_Plasmid
+Plasmids.ids: downloaded from NCBI(wget ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old_refseq/Plasmids/Plasmids.ids)  
+Total_Chrom_Plasmid.list: the output file, containing assembly_accession,species_taxid,organism_name,assembly_level, file_path for chromsomes, and file_path for plasmids  
+Chromosome_Plasmid: the output directory containing separated chromsome and plasmid sequences  
 
