@@ -69,7 +69,7 @@ To filter out low-coverage genomes (< 0.5 Mb):
 perl bin/07.ValidatedGenome_more500kb.pl ValidatedSpecies_GenomeInfo_Strain.xls ValidatedGenome_more500kb.xls  
 ValidatedGenome_more500kb.xls: the output file
 
-## Reference and query genomes 
+## 4. Reference and query genomes 
 To select reference and query genomes:  
 perl bin/08.Ref_Query_GenomeInfo.pl ValidatedGenome_more500kb.xls Data/Type_strain.xls Ref_GenomeInfo.xls Query_GenomeInfo.xls  
 Ref_GenomeInfo.xls: the output file for selected references
