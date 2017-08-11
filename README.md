@@ -72,7 +72,7 @@ ValidatedGenome_more500kb.xls: the output file
 ## 4. Reference and query genomes 
 To select reference and query genomes:  
 perl bin/08.Ref_Query_GenomeInfo.pl ValidatedGenome_more500kb.xls Data/Type_strain.xls Ref_GenomeInfo.xls Query_GenomeInfo.xls  
-Ref_GenomeInfo.xls: the output file for selected references
+Ref_GenomeInfo.xls: the output file for selected references  
 Query_GenomeInfo.xls: the output file for selected queries
 
 
