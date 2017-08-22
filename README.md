@@ -7,16 +7,29 @@ If you use WHI in your publication, please cite:
 # Support
 If you are having issues, please email me via zhouyizhuang3@163.com
 
-# Protocol
+# Test on DDH database
+The extended DDH database: data/DDH_Database.xls
+## 1. Gain genome information 
+
+
+
+The results for DDH database: data/DDH_Results.xls
+
+
+# Test on NCBI genomes
+
+# Procedures for collecting NCBI genomes
 ## 1. Genome collection
 ### 1.1 Download assembly_summary.txt
 For archea genomes:  
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/archea/assembly_summary.txt  
 mv assembly_summary.txt Archea_assembly_summary.txt  
+Note: The data used in our paper is Data/Archea_assembly_summary.txt. You should use this data to repeat our study. Please note that if you download assembly_summary.txt by yourself, the results may be slightly different because of updated NCBI database.  
 
 For eubacteria genomes:  
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/assembly_summary.txt  
 mv assembly_summary.txt Bacteria_assembly_summary.txt
+Note: The data used in our paper is Data/Archea_assembly_summary.txt. You should use this data to repeat our study. Please note that if you download assembly_summary.txt by yourself, the results may be slightly different because of updated NCBI database.  
 
 Merging two files:  
 cat Archea_assembly_summary.txt Bacteria_assembly_summary.txt >Total_assembly_summary.txt
