@@ -52,7 +52,8 @@ perl bin/02.GenerateShell_4Gzip.pl Genome gzip.sh
 sh gzip.sh
 
 ### 1.4 Generate genome list 
-To generate a table containing assembly_accession,species_taxid,organism_name,infraspecific_name, assembly_level,and Path for fasta file  perl bin/03.Generate_GenomeList.pl Total_assembly_summary.txt Genome Total_Genome.list Total_Genome.log  
+To generate a table containing assembly_accession,species_taxid,organism_name,infraspecific_name, assembly_level,and file path:   
+perl bin/03.Generate_GenomeList.pl Total_assembly_summary.txt Genome Total_Genome.list Total_Genome.log  
 
 ### 1.5. Separate Chromosomes and Plasmids
 To separate chromosomes and plasmids, and then calculate the genome sizes for chromosomes:  
