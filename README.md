@@ -8,12 +8,14 @@ If you use WHI in your publication, please cite:
 If you are having issues, please email me via zhouyizhuang3@163.com
 
 # Test on DDH database
-The extended DDH database: data/DDH_Database.xls
+The extended DDH database: data/DDH_Database.xls  
+The results for DDH database: data/DDH_Results.xls  
+You can follow the following procedures to generate the resutls!
 ## 1. Gain genome information 
 
 
 
-The results for DDH database: data/DDH_Results.xls
+
 
 
 # Test on NCBI genomes
