@@ -106,21 +106,21 @@ perl bin/15.Validate_4ANI_GreedyMatch.pl  ANI_WHI_PSG.xls Ref_GenomeInfo.xls Que
 
 Then you can use bin/14.Fscore.pl to calculate recall, precision and F-score.  
 
-# Test on DDH database
+## Test on DDH database
 The extended DDH database: data/DDH_Database.xls  
 Following the below procedures, you will obtains the results for DDH database: data/DDH_Results.xls  
 
-## 1. Gain genome information 
-perl bin/DDH_GenomeInfo.pl Total_Chrom_Plasmid.list Data/DDH_Database.xls DDH_GenomeInfo.xls
-Total_Chrom_Plasmid.list: to get this file, you should follow the procedures for collecting NCBI genomes (step 1.1 to 1.5)  
+### 1. Gain genome information 
+perl bin/16.DDH_GenomeInfo.pl Total_Chrom_Plasmid.list data/DDH_Database.xls DDH_GenomeInfo.xls
+Total_Chrom_Plasmid.list: to get this file, you should follow the section "Test on NCBI genomes (step 1.1 to 1.5)"  
 
-## 2. Calculate Z-values for DDH genomes
-perl bin/Zvalue.pl DDH_GenomeInfo.xls DDH_Zvalue.xls
+### 2. Calculate Z-values for DDH genomes
+perl bin/08.Zvalue.pl DDH_GenomeInfo.xls DDH_Zvalue.xls
 
-## 3. Calculated TETRAs
-perl bin/DDH_TETRA.pl DDH_Zvalue.xls DDH_Database.xls DDH_TETRA.xls
+### 3. Calculated TETRAs
+perl bin/17.DDH_TETRA.pl DDH_Zvalue.xls DDH_Database.xls DDH_TETRA.xls
 
-## 
+### 
 
 
 
