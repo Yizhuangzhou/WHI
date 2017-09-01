@@ -97,5 +97,33 @@ sh GenomeAlign.sh
 cut -f 1,6 ValidatedGenome_more500kb.xls >Genome_size.xls  
 perl bin/11.ANI_WHI_PSG.pl Delta.list Genome_Size.xls ANI_WHI_PSG.xls  
 
-## 7. Species delineation by 
+## 7. Species delineation using the Best Match strategy
+### 7.1 Species delineation by WHI 
+perl bin/12.SpeciesDelineation_byWHI_BestMatch.pl ANI_WHI_PSG.xls SpeciesDelineation_byWHI_BestMatch.xls  
+
+### 7.2 Species delineation by ANI  
+perl bin/12.SpeciesDelineation_byANI_BestMatch.pl ANI_WHI_PSG.xls SpeciesDelineation_byANI_BestMatch.xls  
+
+## 8. Validation by NCBI taxonomy 
+### 8.1 Validate delineation by WHI  
+perl bin/13.Validate_4WHI_BestMatch.pl SpeciesDelineation_byWHI_BestMatch.xls Ref_GenomeInfo.xls Query_GenomeInfo.xls WHI_validate_detail.xls WHI_validate_stat.xls  
+Then you can use bin/DrawFigS6_Rcode.R to draw a figure (Fig. S6B)  
+
+### 8.2 Validate delineation by ANI
+perl bin/13.Validate_4ANI_BestMatch.pl SpeciesDelineation_byANI_BestMatch.xls Ref_GenomeInfo.xls Query_GenomeInfo.xls ANI_validate_detail.xls ANI_validate_stat.xls  
+
+### 8.3 Recall, Precision and F-score
+perl bin/14.Fscore.pl WHI_validate_detail.xls ANI_validate_detail.xls 61914 Recall_Precision_Fscore.xls  
+
+### 9. Species delineation using the Greedy-Match strategy
+#### 9.1 Validate delineation by WHI  
+perl bin/15.Validate_4WHI_GreedyMatch.pl  ANI_WHI_PSG.xls Ref_GenomeInfo.xls Query_GenomeInfo.xls Validate_4WHI_GreedyMatch_detail.xls Validate_4WHI_GreedyMatch_stat.xls
+
+#### 9.2 Validate delineation by ANI  
+perl bin/15.Validate_4ANI_GreedyMatch.pl  ANI_WHI_PSG.xls Ref_GenomeInfo.xls Query_GenomeInfo.xls Validate_4ANI_GreedyMatch_detail.xls Validate_4ANI_GreedyMatch_stat.xls  
+
+Then you can use bin/14.Fscore.pl to calculate recall, precision and F-score.  
+
+
+
 
