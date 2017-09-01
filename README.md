@@ -68,23 +68,34 @@ Plasmids.ids: downloaded from NCBI(wget ftp://ftp.ncbi.nlm.nih.gov/genomes/archi
 ## 3. Genome selection  
 ### 3.1 Select genomes with validated species names
 To discard genomes without validated species name and retain genomes belonging to validated species  
-perl bin/05.ValidatedSpecies_GenomeInfo.pl Data/Validated_SpeciesName.xls Total_assembly_summary.txt ValidatedSpecies_GenomeInfo.xls  
-ValidatedSpecies_GenomeInfo.xls: the output file to contain only genomes belonging to validated species
+perl bin/05.ValidatedSpecies_GenomeInfo.pl data/Validated_SpeciesName.xls Total_Chrom_Plasmid.list ValidatedSpecies_GenomeInfo.xls  
 
-### 3.2 Add strain information  
-To add strain information to each genomes with validated species names:  
-perl bin/06.Add_StrainInfo.pl ValidatedSpecies_GenomeInfo.xls Validated_SpeciesName.xls Total_assembly_summary.txt ValidatedSpecies_GenomeInfo_Strain.xls  
-ValidatedSpecies_GenomeInfo_Strain.xls: the output file
-
-### 3.3 Select draft genomes with size >0.5 megabase-pairs (Mb)
+### 3.2 Select draft genomes with size >0.5 megabase-pairs (Mb)
 To filter out low-coverage genomes (< 0.5 Mb):  
-perl bin/07.ValidatedGenome_more500kb.pl ValidatedSpecies_GenomeInfo_Strain.xls ValidatedGenome_more500kb.xls  
-ValidatedGenome_more500kb.xls: the output file
+perl bin/06.ValidatedGenome_more500kb.pl ValidatedSpecies_GenomeInfo.xls ValidatedGenome_more500kb.xls  
 
 ## 4. Reference and query genomes 
 To select reference and query genomes:  
-perl bin/08.Ref_Query_GenomeInfo.pl ValidatedGenome_more500kb.xls Data/Type_strain.xls Ref_GenomeInfo.xls Query_GenomeInfo.xls  
-Ref_GenomeInfo.xls: the output file for selected references  
-Query_GenomeInfo.xls: the output file for selected queries
+perl bin/07.Ref_Query_GenomeInfo.pl ValidatedGenome_more500kb.xls data/Type_strain.xls Ref_GenomeInfo.xls Query_GenomeInfo.xls  
 
+## 5. Sieved by TETRA  
+### 5.1 Calculating zvalues  
+For ref. genomes:  
+perl bin /08.Zvalue.pl Ref_GenomeInfo.xls Ref_Zvalue.xls  
+For Query genomes:  
+perl bin /08.Zvalue.pl Query_GenomeInfo.xls Query_Zvalue.xls  
+
+### 5.2 Calculating TETRAs and selecting pairs for WHI and ANI calculation  
+perl 09.Pairs_byTETRA.pl Ref_Zvalue.xls Query_Zvalue.xls Pairs_byTETRA.xls  
+
+## 6. Calculation of ANI, PSG and WHI
+### 6.1 Generate script for alignments
+perl bin/10.GenerateShell_4GenomeAlign.pl Ref_GenomeInfo.xls Query_GenomeInfo.xls Pairs_byTETRA.xls GenomeAlign GenomeAlign.sh Delta.list  
+sh GenomeAlign.sh  
+
+### 6.2 Calculation of ANI, PSG and WHI
+cut -f 1,6 ValidatedGenome_more500kb.xls >Genome_size.xls  
+perl bin/11.ANI_WHI_PSG.pl Delta.list Genome_Size.xls ANI_WHI_PSG.xls  
+
+## 7. Species delineation by 
 
