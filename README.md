@@ -120,7 +120,9 @@ perl bin/08.Zvalue.pl DDH_GenomeInfo.xls DDH_Zvalue.xls
 ### 3. Calculated TETRAs
 perl bin/17.DDH_TETRA.pl DDH_Zvalue.xls DDH_Database.xls DDH_TETRA.xls
 
-### 
+### 4. Generate script for alignments
+perl bin/18.GenerateShell_4DDHGenomeAlign.pl DDH_GenomeInfo.xls data/DDH_Database.xls DDH_GenomeAlign DDH_GenomeAlign.sh DDH_Delta.list 
+sh DDH_GenomeAlign.sh  
 
-
-
+### 5. Calculation of ANI, PSG and WHI
+cut -f 1,6 DDH_GenomeInfo.xls >DDH_Genomesize.xls
