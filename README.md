@@ -7,25 +7,7 @@ If you use WHI in your publication, please cite:
 # Support
 If you are having issues, please email me via zhouyizhuang3@163.com
 
-## Test on DDH database
-The extended DDH database: data/DDH_Database.xls  
-Following the below procedures, you will obtains the results for DDH database: data/DDH_Results.xls  
-
-### 1. Gain genome information 
-perl bin/DDH_GenomeInfo.pl Total_Chrom_Plasmid.list Data/DDH_Database.xls DDH_GenomeInfo.xls
-Total_Chrom_Plasmid.list: to get this file, you should follow the procedures for collecting NCBI genomes (step 1.1 to 1.5)  
-
-### 2. Calculate Z-values for DDH genomes
-perl bin/Zvalue.pl DDH_GenomeInfo.xls DDH_Zvalue.xls
-
-### 3. Calculated TETRAs
-perl bin/DDH_TETRA.pl DDH_Zvalue.xls DDH_Database.xls DDH_TETRA.xls
-
-## 
-
-# Test on NCBI genomes
-
-# Procedures for collecting NCBI genomes
+# Test on NCBI genomes  
 ## 1. Genome collection
 ### 1.1 Download assembly_summary.txt
 For archea genomes:  
@@ -124,6 +106,21 @@ perl bin/15.Validate_4ANI_GreedyMatch.pl  ANI_WHI_PSG.xls Ref_GenomeInfo.xls Que
 
 Then you can use bin/14.Fscore.pl to calculate recall, precision and F-score.  
 
+# Test on DDH database
+The extended DDH database: data/DDH_Database.xls  
+Following the below procedures, you will obtains the results for DDH database: data/DDH_Results.xls  
+
+## 1. Gain genome information 
+perl bin/DDH_GenomeInfo.pl Total_Chrom_Plasmid.list Data/DDH_Database.xls DDH_GenomeInfo.xls
+Total_Chrom_Plasmid.list: to get this file, you should follow the procedures for collecting NCBI genomes (step 1.1 to 1.5)  
+
+## 2. Calculate Z-values for DDH genomes
+perl bin/Zvalue.pl DDH_GenomeInfo.xls DDH_Zvalue.xls
+
+## 3. Calculated TETRAs
+perl bin/DDH_TETRA.pl DDH_Zvalue.xls DDH_Database.xls DDH_TETRA.xls
+
+## 
 
 
 
