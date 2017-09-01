@@ -1,12 +1,6 @@
 # WHI
 A genome-based method embracing evolutionary distance and ecology to delineate prokaryotic species
 
-# Please Cite
-If you use WHI in your publication, please cite:
-
-# Support
-If you are having issues, please email me via zhouyizhuang3@163.com
-
 # Test on NCBI genomes  
 ## 1. Genome collection
 ### 1.1 Download assembly_summary.txt
@@ -125,4 +119,14 @@ perl bin/18.GenerateShell_4DDHGenomeAlign.pl DDH_GenomeInfo.xls data/DDH_Databas
 sh DDH_GenomeAlign.sh  
 
 ### 5. Calculation of ANI, PSG and WHI
-cut -f 1,6 DDH_GenomeInfo.xls >DDH_Genomesize.xls
+cut -f 1,6 DDH_GenomeInfo.xls >DDH_Genomesize.xls  
+perl bin/11.ANI_WHI_PSG.pl DDH_Delta.list DDH_Genomesize.xls DDH_ANI_WHI_PSG.xls  
+
+### 6. Generate final results
+perl bin/19.DDH_Results.pl data/DDH_Database.xls DDH_ANI_WHI_PSG.xls DDH_TETRA.xls DDH_Results.xls  
+
+# Please Cite
+If you use WHI in your publication, please cite:
+
+# Support
+If you are having issues, please email me via zhouyizhuang3@163.com
