@@ -100,7 +100,7 @@ perl bin/15.Validate_4ANI_GreedyMatch.pl  ANI_WHI_PSG.xls Ref_GenomeInfo.xls Que
 
 Then you can use bin/14.Fscore.pl to calculate recall, precision and F-score.  
 
-## Test on DDH database
+# Test on DDH database
 The extended DDH database: data/DDH_Database.xls  
 Following the below procedures, you will obtains the results for DDH database: data/DDH_Results.xls  
 
