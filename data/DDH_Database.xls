@@ -1,0 +1,156 @@
+ID1	SPid1	Name1	ID2	SPid2	Nname2	DDH (%)	Type
+GCA_001695515.1	562	Escherichia coli FRIK944	GCA_000006665.1	562	Escherichia coli EDL933	99.3	T
+GCA_000007445.1	562	Escherichia coli CFT073	GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	94.025	T
+GCA_000007265.1	1311	Streptococcus agalactiae 2603V/R	GCA_000012705.1	1311	Streptococcus agalactiae A909	92.425	T
+GCA_000012705.1	1311	Streptococcus agalactiae A909	GCA_000196055.1	1311	Streptococcus agalactiae NEM316	89.575	T
+GCA_000007265.1	1311	Streptococcus agalactiae 2603V/R	GCA_000196055.1	1311	Streptococcus agalactiae NEM316	84.725	T
+GCA_000007445.1	562	Escherichia coli CFT073	GCA_001695515.1	562	Escherichia coli FRIK944	84.225	T
+GCA_000027125.1	562	Escherichia coli 042	GCA_000007445.1	562	Escherichia coli CFT073	83.725	T
+GCA_000007445.1	562	Escherichia coli CFT073	GCA_000006665.1	562	Escherichia coli EDL933	81.8	T
+GCA_000007445.1	562	Escherichia coli CFT073	GCA_000092525.1	624	Shigella sonnei Ss046	80.675	T
+GCA_000007405.1	623	Shigella flexneri 2457T	GCA_000092525.1	624	Shigella sonnei Ss046	80.35	T
+GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	GCA_000006665.1	562	Escherichia coli EDL933	79.475	T
+GCA_000026545.1	562	Escherichia coli E2348/69	GCA_001695515.1	562	Escherichia coli FRIK944	78.275	T
+GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	GCA_001695515.1	562	Escherichia coli FRIK944	78.125	T
+GCA_000027125.1	562	Escherichia coli 042	GCA_001695515.1	562	Escherichia coli FRIK944	77.375	T
+GCA_000026545.1	562	Escherichia coli E2348/69	GCA_000006665.1	562	Escherichia coli EDL933	77.2	T
+GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	GCA_000092525.1	624	Shigella sonnei Ss046	77	T
+GCA_000027125.1	562	Escherichia coli 042	GCA_000006665.1	562	Escherichia coli EDL933	75.85	T
+GCA_000026545.1	562	Escherichia coli E2348/69	GCA_000007445.1	562	Escherichia coli CFT073	75.625	T
+GCA_000026545.1	562	Escherichia coli E2348/69	GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	75.55	T
+GCA_001695515.1	562	Escherichia coli FRIK944	GCA_000092525.1	624	Shigella sonnei Ss046	75.4	T
+GCA_000007445.1	562	Escherichia coli CFT073	GCA_000007405.1	623	Shigella flexneri 2457T	75.3	T
+GCA_000026545.1	562	Escherichia coli E2348/69	GCA_000092525.1	624	Shigella sonnei Ss046	74.275	T
+GCA_000006665.1	562	Escherichia coli EDL933	GCA_000092525.1	624	Shigella sonnei Ss046	73.975	T
+GCA_000027125.1	562	Escherichia coli 042	GCA_000092525.1	624	Shigella sonnei Ss046	73.75	T
+GCA_000026545.1	562	Escherichia coli E2348/69	GCA_000027125.1	562	Escherichia coli 042	73.225	T
+GCA_000027125.1	562	Escherichia coli 042	GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	72.65	T
+GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	GCA_000007405.1	623	Shigella flexneri 2457T	70.45	T
+GCA_000006665.1	562	Escherichia coli EDL933	GCA_000007405.1	623	Shigella flexneri 2457T	68.9	T
+GCA_001695515.1	562	Escherichia coli FRIK944	GCA_000007405.1	623	Shigella flexneri 2457T	68.2	T
+GCA_000203955.1	95486	Burkholderia cenocepacia HI2424	GCA_000009485.1	95486	Burkholderia cenocepacia J2315	68.125	T
+GCA_000027125.1	562	Escherichia coli 042	GCA_000007405.1	623	Shigella flexneri 2457T	68	T
+GCA_000026545.1	562	Escherichia coli E2348/69	GCA_000007405.1	623	Shigella flexneri 2457T	66.875	T
+GCA_000007825.1	1396	Bacillus cereus ATCC 14579	GCA_000008005.1	1396	Bacillus cereus ATCC 10987	65.1	T
+GCA_000009485.1	95486	Burkholderia cenocepacia J2315	GCA_000012945.1	482957	Burkholderia lata 383	54.825	D
+GCA_000203955.1	95486	Burkholderia cenocepacia HI2424	GCA_000012945.1	482957	Burkholderia lata 383	54.4	D
+GCA_000012245.1	317	Pseudomonas syringae B728a	GCA_000007805.1	251701	Pseudomonas syringae tomato DC3000	38.325	D
+GCA_000009485.1	95486	Burkholderia cenocepacia J2315	GCA_000016205.1	60552	Burkholderia vietnamiensis G4	34.9	D
+GCA_000012945.1	482957	Burkholderia lata 383	GCA_000016205.1	60552	Burkholderia vietnamiensis G4	30.525	D
+GCA_000203955.1	95486	Burkholderia cenocepacia HI2424	GCA_000016205.1	60552	Burkholderia vietnamiensis G4	29.075	D
+GCA_000014085.1	95486	Burkholderia cenocepacia AU 1054	GCA_000016205.1	60552	Burkholderia vietnamiensis G4	28.85	D
+GCA_000012265.1	380021	Pseudomonas protegens Pf-5	GCA_000012445.1	294	Pseudomonas fluorescens Pf0-1	28.5	D
+GCA_000012445.1	294	Pseudomonas fluorescens Pf0-1	GCA_000009225.1	294	Pseudomonas fluorescens SBW25	27.825	D
+GCA_000015845.1	62322	Shewanella baltica OS155	GCA_000016585.1	24	Shewanella putrefaciens CN-32	27.375	D
+GCA_000012265.1	380021	Pseudomonas protegens Pf-5	GCA_000009225.1	294	Pseudomonas fluorescens SBW25	26.075	D
+GCA_000015845.1	62322	Shewanella baltica OS155	GCA_000146165.2	70863	Shewanella oneidensis MR-1	26.075	D
+GCA_000146165.2	70863	Shewanella oneidensis MR-1	GCA_000016585.1	24	Shewanella putrefaciens CN-32	21.85	D
+GCA_000012445.1	294	Pseudomonas fluorescens Pf0-1	GCA_000012245.1	317	Pseudomonas syringae B728a	17.3	D
+GCA_000009225.1	294	Pseudomonas fluorescens SBW25	GCA_000012245.1	317	Pseudomonas syringae B728a	17.2	D
+GCA_000009225.1	294	Pseudomonas fluorescens SBW25	GCA_000007805.1	251701	Pseudomonas syringae tomato DC3000	14.7	D
+GCA_001874465.1	287	Pseudomonas aeruginosa NA	GCA_000012265.1	380021	Pseudomonas protegens Pf-5	13.8	D
+GCA_000012445.1	294	Pseudomonas fluorescens Pf0-1	GCA_000007805.1	251701	Pseudomonas syringae tomato DC3000	13.575	D
+GCA_000009485.1	95486	Burkholderia cenocepacia J2315	GCA_000013645.1	36873	Paraburkholderia xenovorans LB400	13.525	D
+GCA_001874465.1	287	Pseudomonas aeruginosa NA	GCA_000012445.1	294	Pseudomonas fluorescens Pf0-1	13.225	D
+GCA_000012265.1	380021	Pseudomonas protegens Pf-5	GCA_000012245.1	317	Pseudomonas syringae B728a	13.05	D
+GCA_000012945.1	482957	Burkholderia lata 383	GCA_000013645.1	36873	Paraburkholderia xenovorans LB400	12.9	D
+GCA_000203955.1	95486	Burkholderia cenocepacia HI2424	GCA_000013645.1	36873	Paraburkholderia xenovorans LB400	12.65	D
+GCA_000014085.1	95486	Burkholderia cenocepacia AU 1054	GCA_000013645.1	36873	Paraburkholderia xenovorans LB400	12.55	D
+GCA_001874465.1	287	Pseudomonas aeruginosa NA	GCA_000009225.1	294	Pseudomonas fluorescens SBW25	11.55	D
+GCA_000012265.1	380021	Pseudomonas protegens Pf-5	GCA_000007805.1	251701	Pseudomonas syringae tomato DC3000	10.675	D
+GCA_000016205.1	60552	Burkholderia vietnamiensis G4	GCA_000013645.1	36873	Paraburkholderia xenovorans LB400	9.825	D
+GCA_001874465.1	287	Pseudomonas aeruginosa NA	GCA_000012245.1	317	Pseudomonas syringae B728a	7.825	D
+GCA_001874465.1	287	Pseudomonas aeruginosa NA	GCA_000007805.1	251701	Pseudomonas syringae tomato DC3000	6.15	D
+GCA_000156495.1	387661	Parabacteroides johnsonii DSM 18315	GCA_000154105.1	46503	Parabacteroides merdae ATCC 43184	59	D
+GCA_000167975.1	634	Yersinia bercovieri ATCC 43970	GCA_000167995.1	33060	Yersinia mollaretii ATCC 43969	59	D
+GCA_000168015.1	29484	Yersinia frederiksenii ATCC 33641	GCA_000173775.1	29485	Yersinia rohdei ATCC 43380	53	D
+GCA_000156075.1	357276	Bacteroides dorei DSM 17855	GCA_000012825.1	821	Bacteroides vulgatus ATCC 8482	46	D
+GCA_000168035.1	631	Yersinia intermedia ATCC 29909	GCA_000173775.1	29485	Yersinia rohdei ATCC 43380	45	D
+GCA_000167975.1	634	Yersinia bercovieri ATCC 43970	GCA_000168015.1	29484	Yersinia frederiksenii ATCC 33641	44	D
+GCA_000168015.1	29484	Yersinia frederiksenii ATCC 33641	GCA_000167995.1	33060	Yersinia mollaretii ATCC 43969	42	D
+GCA_000167975.1	634	Yersinia bercovieri ATCC 43970	GCA_000168035.1	631	Yersinia intermedia ATCC 29909	40	D
+GCA_000167975.1	634	Yersinia bercovieri ATCC 43970	GCA_000173775.1	29485	Yersinia rohdei ATCC 43380	40	D
+GCA_000158035.1	246787	Bacteroides cellulosilyticus DSM 14838	GCA_000172175.1	329854	Bacteroides intestinalis DSM 17393	40	D
+GCA_000173735.1	29483	Yersinia aldovae ATCC 35236	GCA_000167975.1	634	Yersinia bercovieri ATCC 43970	38	D
+GCA_000168035.1	631	Yersinia intermedia ATCC 29909	GCA_000167995.1	33060	Yersinia mollaretii ATCC 43969	33	D
+GCA_000173735.1	29483	Yersinia aldovae ATCC 35236	GCA_000167995.1	33060	Yersinia mollaretii ATCC 43969	32	D
+GCA_000022205.1	2247	Halorubrum lacusprofundi ATCC 49239	GCA_000025325.1	62320	Haloterrigena turkmenica DSM 5511	28	D
+GCA_000015245.1	60478	Shewanella amazonensis SB2B	GCA_000018285.1	70864	Shewanella pealeana ATCC 700345	27.3	D
+GCA_000156195.1	338188	Bacteroides finegoldii DSM 17565	GCA_001314995.1	28116	Bacteroides ovatus ATCC 8483	23	D
+GCA_000167995.1	33060	Yersinia mollaretii ATCC 43969	GCA_000173775.1	29485	Yersinia rohdei ATCC 43380	22	D
+GCA_000173375.1	78342	Bifidobacterium gallicum DSM 20093	GCA_001025215.1	28026	Bifidobacterium pseudocatenulatum JCM 1200	21	D
+GCA_000156195.1	338188	Bacteroides finegoldii DSM 17565	GCA_000011065.1	818	Bacteroides thetaiotaomicron VPI-5482	20	D
+GCA_001025155.1	1683	Bifidobacterium angulatum JCM 7096	GCA_000173375.1	78342	Bifidobacterium gallicum DSM 20093	18	D
+GCA_000019185.1	271098	Shewanella halifaxensis HAW-EB4	GCA_000018285.1	70864	Shewanella pealeana ATCC 700345	17.9	D
+GCA_001025195.1	1686	Bifidobacterium catenulatum JCM 1194	GCA_000173375.1	78342	Bifidobacterium gallicum DSM 20093	15	D
+GCA_000012845.1	823	Parabacteroides distasonis ATCC 8503	GCA_000154105.1	46503	Parabacteroides merdae ATCC 43184	15	D
+GCA_000160555.1	135083	Selenomonas noxia ATCC 43541	GCA_000208405.1	69823	Selenomonas sputigena ATCC 35185	13	D
+GCA_000012845.1	823	Parabacteroides distasonis ATCC 8503	GCA_000156495.1	387661	Parabacteroides johnsonii DSM 18315	13	D
+GCA_000156515.1	29347	Clostridium_hylemonae_DSM_15053	GCA_000154505.1	29347	Clostridium scindens ATCC 35704	11.5	D
+GCA_001025175.1	1685	Bifidobacterium breve JCM 1192	GCA_000173375.1	78342	Bifidobacterium gallicum DSM 20093	11	D
+GCA_000021945.1	152260	Chloroflexus aggregans DSM 9485	GCA_000018865.1	1108	Chloroflexus aurantiacus J-10-fl	10	D
+GCA_000172175.1	329854	Bacteroides intestinalis DSM 17393	GCA_000154205.1	820	Bacteroides uniformis ATCC 8492	9	D
+GCA_000011305.1	152794	Corynebacterium efficiens YS-314	GCA_000011325.1	1718	Corynebacterium glutamicum ATCC 13032	8	D
+GCA_000159135.1	43770	Corynebacterium striatum ATCC 6940	GCA_000069945.1	43771	Corynebacterium urealyticum DSM 7109	6	D
+GCA_000006665.1	562	Escherichia coli EDL933	GCA_000008865.1	562	Escherichia coli Sakai substr. RIMD 0509952	100.9	T
+GCA_000018525.1	36855	Brucella canis NA	GCA_000007505.1	29461	Brucella suis 1330	100	T
+GCA_000025985.1	817	Bacteroides fragilis NA	GCA_000009925.1	817	Bacteroides fragilis YCH46	99	T
+GCA_000015845.1	62322	Shewanella baltica OS155	GCA_000021665.1	62322	Shewanella baltica OS223	99	T
+GCA_000015845.1	62322	Shewanella baltica OS155	GCA_000017325.1	62322	Shewanella baltica OS185	99	T
+GCA_000015845.1	62322	Shewanella baltica OS155	GCA_000018765.1	62322	Shewanella baltica OS195	99	T
+GCA_000018525.1	36855	Brucella canis NA	GCA_000022625.1	29459	Brucella melitensis ATCC 23457	98	T
+GCA_000018525.1	36855	Brucella canis NA	GCA_000016845.1	236	Brucella ovis ATCC 25840	97	T
+GCA_000090405.1	146919	Salinibacter ruber M8	GCA_000013045.1	146919	Salinibacter ruber DSM 13855; M31	96.6	T
+GCA_000016845.1	236	Brucella ovis ATCC 25840	GCA_000007505.1	29461	Brucella suis 1330	96.5	T
+GCA_000022625.1	29459	Brucella melitensis ATCC 23457	GCA_000007505.1	29461	Brucella suis 1330	96	T
+GCA_000022625.1	29459	Brucella melitensis ATCC 23457	GCA_000018905.1	29461	Brucella suis ATCC 23445	96	T
+GCA_000022625.1	29459	Brucella melitensis ATCC 23457	GCA_000016845.1	236	Brucella ovis ATCC 25840	95.5	T
+GCA_000007265.1	1311	Streptococcus agalactiae 2603V/R	GCA_000012705.1	1311	Streptococcus agalactiae A909	93.45	T
+GCA_000007265.1	1311	Streptococcus agalactiae 2603V/R	GCA_000196055.1	1311	Streptococcus agalactiae NEM316	86.35	T
+GCA_000007445.1	562	Escherichia coli CFT073	GCA_000008865.1	562	Escherichia coli Sakai substr. RIMD 0509952	84.65	T
+GCA_000018485.1	39152	Methanococcus maripaludis C6	GCA_000017225.1	39152	Methanococcus maripaludis C7	81	T
+GCA_000008865.1	562	Escherichia coli Sakai substr. RIMD 0509952	GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	80.35	T
+GCA_000007405.1	623	Shigella flexneri 2457T	GCA_000188795.2	624	Shigella sonnei 53G	79.7	T
+GCA_000008865.1	562	Escherichia coli Sakai substr. RIMD 0509952	GCA_000026545.1	562	Escherichia coli E2348/69	79.45	T
+GCA_000006665.1	562	Escherichia coli EDL933	GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	79.25	T
+GCA_000007445.1	562	Escherichia coli CFT073	GCA_000188795.2	624	Shigella sonnei 53G	78.05	T
+GCA_000027125.1	562	Escherichia coli 042	GCA_000008865.1	562	Escherichia coli Sakai substr. RIMD 0509952	77.65	T
+GCA_000007445.1	562	Escherichia coli CFT073	GCA_000026545.1	562	Escherichia coli E2348/69	76.45	T
+GCA_000006665.1	562	Escherichia coli EDL933	GCA_000026545.1	562	Escherichia coli E2348/69	76.2	T
+GCA_000027125.1	562	Escherichia coli 042	GCA_000026545.1	562	Escherichia coli E2348/69	75.05	T
+GCA_000005845.2	562	Escherichia coli K-12 substr. MG1655	GCA_000188795.2	624	Shigella sonnei 53G	74.6	T
+GCA_000006665.1	562	Escherichia coli EDL933	GCA_000188795.2	624	Shigella sonnei 53G	74.35	T
+GCA_000008865.1	562	Escherichia coli Sakai substr. RIMD 0509952	GCA_000188795.2	624	Shigella sonnei 53G	74	T
+GCA_000027125.1	562	Escherichia coli 042	GCA_000188795.2	624	Shigella sonnei 53G	71.4	T
+GCA_000026545.1	562	Escherichia coli E2348/69	GCA_000188795.2	624	Shigella sonnei 53G	70.95	T
+GCA_000016125.1	39152	Methanococcus maripaludis C5	GCA_000018485.1	39152	Methanococcus maripaludis C6	69	T
+GCA_000016125.1	39152	Methanococcus maripaludis C5	GCA_000017225.1	39152	Methanococcus maripaludis C7	69	T
+GCA_000008865.1	562	Escherichia coli Sakai substr. RIMD 0509952	GCA_000007405.1	623	Shigella flexneri 2457T	65.9	T
+GCA_000008005.1	1396	Bacillus cereus ATCC 10987	GCA_000007825.1	1396	Bacillus cereus ATCC 14579	63.8	T
+GCA_000009145.1	915	Nitrosomonas europaea ATCC 19718	GCA_000014765.1	916	Nitrosomonas eutropha C91	43	D
+GCA_000015245.1	60478	Shewanella amazonensis SB2B	GCA_000016585.1	24	Shewanella putrefaciens CN-32	42.7	D
+GCA_000015245.1	60478	Shewanella amazonensis SB2B	GCA_000146165.2	70863	Shewanella oneidensis MR-1	40.3	D
+GCA_000015245.1	60478	Shewanella amazonensis SB2B	GCA_000019525.1	60961	Shewanella woodyi ATCC 51908	40	D
+GCA_000146165.2	70863	Shewanella oneidensis MR-1	GCA_000019525.1	60961	Shewanella woodyi ATCC 51908	39	D
+GCA_000146165.2	70863	Shewanella oneidensis MR-1	GCA_000016585.1	24	Shewanella putrefaciens CN-32	28.65	D
+GCA_000017225.1	39152	Methanococcus maripaludis C7	GCA_000017165.1	2187	Methanococcus vannielii SB	32	D
+GCA_000008545.1	2336	Thermotoga maritima MSB8	GCA_000018945.1	2337	Thermotoga neapolitana DSM 4359	30.8	D
+GCA_000009285.2	106590	Cupriavidus necator H16	GCA_000196015.1	119219	Cupriavidus metallidurans CH34	28	D
+GCA_000018485.1	39152	Methanococcus maripaludis C6	GCA_000017165.1	2187	Methanococcus vannielii SB	27	D
+GCA_000015845.1	62322	Shewanella baltica OS155	GCA_000146165.2	70863	Shewanella oneidensis MR-1	25.95	D
+GCA_000025985.1	817	Bacteroides fragilis NA	GCA_000011065.1	818	Bacteroides thetaiotaomicron VPI-5482	24.5	D
+GCA_000146165.2	70863	Shewanella oneidensis MR-1	GCA_000018285.1	70864	Shewanella pealeana ATCC 700345	20.4	D
+GCA_000015805.1	181486	Pyrobaculum calidifontis JCM 11548	GCA_000007225.1	13773	Pyrobaculum aerophilum IM2	18	D
+GCA_000019185.1	271098	Shewanella halifaxensis HAW-EB4	GCA_000018285.1	70864	Shewanella pealeana ATCC 700345	17.9	D
+GCA_000018025.1	271097	Shewanella sediminis HAW-EB3	GCA_000019525.1	60961	Shewanella woodyi ATCC 51908	17.8	D
+GCA_000020685.1	310783	Deinococcus deserti VCD115	GCA_000008565.1	1299	Deinococcus radiodurans R1	17	D
+GCA_000016125.1	39152	Methanococcus maripaludis C5	GCA_000017165.1	2187	Methanococcus vannielii SB	17	D
+GCA_000006765.1	287	Pseudomonas aeruginosa PAO1	GCA_000012265.1	380021	Pseudomonas protegens Pf-5	14	D
+GCA_000006765.1	287	Pseudomonas aeruginosa PAO1	GCA_000012445.1	294	Pseudomonas fluorescens Pf0-1	13.45	D
+GCA_000006765.1	287	Pseudomonas aeruginosa PAO1	GCA_000009225.1	294	Pseudomonas fluorescens SBW25	12.6	D
+GCA_000018945.1	2337	Thermotoga neapolitana DSM 4359	GCA_000016785.1	93929	Thermotoga petrophila RKU-1	11	D
+GCA_000006765.1	287	Pseudomonas aeruginosa PAO1	GCA_000012245.1	317	Pseudomonas syringae B728a	8.05	D
+GCA_000006765.1	287	Pseudomonas aeruginosa PAO1	GCA_000007805.1	251701	Pseudomonas syringae tomato DC3000	6.2	D
+GCA_000012285.1	2285	Sulfolobus acidocaldarius DSM 639	GCA_000007005.1	2287	Sulfolobus solfataricus P2	4.55	D
+GCA_000015205.1	2277	Pyrobaculum islandicum DSM 4184	GCA_000007225.1	13773	Pyrobaculum aerophilum IM2	3	D
+GCA_000015805.1	181486	Pyrobaculum calidifontis JCM 11548	GCA_000015205.1	2277	Pyrobaculum islandicum DSM 4184	1	D
